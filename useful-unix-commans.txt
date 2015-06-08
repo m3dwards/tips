@@ -7,3 +7,7 @@ ssh -o "ProxyCommand ssh -W %h:%p maxedwar@gueafewgw02" maxedwar@fewfewcimaster
 SSH with jump box and keys
 
 ssh -i server_key.pem -o "ProxyCommand ssh -W %h:%p -i key_for_jumpbox.pem jumpbox_user@jump.box.host" username@172.31.4.82
+
+SCP with jump box from server to local
+
+scp -o "ProxyCommand ssh -W %h:%p maxedwar@guewwd" maxedwar@gueasfs:some_file_to_copy.txt ~/
