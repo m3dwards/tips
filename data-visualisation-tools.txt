@@ -10,3 +10,6 @@ d3.js
 
 Crossfilter is a JavaScript library for exploring large multivariate datasets in the browser. Crossfilter supports extremely fast (<30ms) interaction with coordinated views, even with datasets containing a million or more records; we built it to power analytics for Square Register, allowing merchants to slice and dice their payment history fluidly.
 http://square.github.io/crossfilter/
+
+Treemaps are a form of space-filling layout where the area of each rectangle is proportional to its value. This example shows the size of files in a source tree.
+http://bost.ocks.org/mike/treemap/
