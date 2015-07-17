@@ -11,3 +11,7 @@ ssh -i server_key.pem -o "ProxyCommand ssh -W %h:%p -i key_for_jumpbox.pem jumpb
 SCP with jump box from server to local
 
 scp -o "ProxyCommand ssh -W %h:%p maxedwar@guewwd" maxedwar@gueasfs:some_file_to_copy.txt ~/
+
+Look at historical server load
+
+sar -f /var/log/sa/sa16 -s 15:30:00 -e 16:30:00 | less
