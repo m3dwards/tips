@@ -15,3 +15,6 @@ scp -o "ProxyCommand ssh -W %h:%p maxedwar@guewwd" maxedwar@gueasfs:some_file_to
 Look at historical server load
 
 sar -f /var/log/sa/sa16 -s 15:30:00 -e 16:30:00 | less
+
+Find process by which port it has open
+lsof -i :5672
