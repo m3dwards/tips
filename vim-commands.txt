@@ -4,3 +4,6 @@ ctrl + u , ctrl + d for scroll up / down page (when in command mode)
 44G to jump to line 44
 G to jump to end
 H, M, L move cursor high, medium, low
+
+CTRL SHIFT V for visual block mode, then SHIFT i to insert. Press escape and will insert into all lines.
+
