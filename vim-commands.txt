@@ -1,5 +1,10 @@
 
 ctrl + u , ctrl + d for scroll up / down page (when in command mode)
+ctrl + b, ctrol + f for scoll up / down by whole page
+
+ctrl + e, ctrl + y scroll without moving cursor
+
+
 {} and () for navigating to paragraphs and sentences.
 44G to jump to line 44
 G to jump to end
@@ -8,3 +13,14 @@ H, M, L move cursor high, medium, low
 CTRL SHIFT V for visual block mode, then SHIFT i to insert. Press escape and will insert into all lines.
 
 : s/^/# for remove comments from start of line
+
+SHIFT J - concat two lines
+
+gr - paste from buffer - plugin
+
+Completion
+[INSERT] CTRL + x followed by CTRL + f for file, l for line, p for previous, n for next
+[INSERT] CTRL + a pastes in the last thing you inserted
+[INSERT] CTRL + r pastes from a register
+
+
