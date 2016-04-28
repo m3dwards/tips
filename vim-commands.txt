@@ -19,8 +19,23 @@ SHIFT J - concat two lines
 gr - paste from buffer - plugin
 
 Completion
+[INSERT] CTRL + p / n auto completes based on previous or before
 [INSERT] CTRL + x followed by CTRL + f for file, l for line, p for previous, n for next
 [INSERT] CTRL + a pastes in the last thing you inserted
 [INSERT] CTRL + r pastes from a register
 
+" accesses register ("kyiw will yank in work to register k)
+:reg show registers
+": will paste last command
+"/ will paste last search
+ "0 holds the last yank, "1 holds the last delete or change
+“_ black hole register (same as /dev/null)
 
+[INSERT] CTRL + x followed by CTRL + F, L, O, ], P, N (autocomplete File, Line, omni lang aware, tag, previous, next)
+
+CTRL O older location
+
+:4co.<return> copy from line four to here
+:4mo.<return> move from line four to here
+:-4,-2mo.<return> move from -4, 2 (relative) to here
+:/^Yank/co.<return>
