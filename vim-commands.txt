@@ -41,3 +41,9 @@ CTRL O older location
 :/^Yank/co.<return>
 
 :bnext && :bprev previous and next buffers
+
+gcc or gc for comment
+
+>> or << for indent
+
+
