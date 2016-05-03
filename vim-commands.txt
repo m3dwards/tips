@@ -39,3 +39,5 @@ CTRL O older location
 :4mo.<return> move from line four to here
 :-4,-2mo.<return> move from -4, 2 (relative) to here
 :/^Yank/co.<return>
+
+:bnext && :bprev previous and next buffers
