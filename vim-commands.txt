@@ -46,4 +46,11 @@ gcc or gc for comment
 
 >> or << for indent
 
+****PYTHON****
+
+af: a function
+if: inner function
+ac: a class
+ic: inner class
+
 
