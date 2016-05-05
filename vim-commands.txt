@@ -18,6 +18,8 @@ SHIFT J - concat two lines
 
 gr - paste from buffer - plugin
 
+gv - highlights what you last had selected
+
 Completion
 [INSERT] CTRL + p / n auto completes based on previous or before
 [INSERT] CTRL + x followed by CTRL + f for file, l for line, p for previous, n for next
