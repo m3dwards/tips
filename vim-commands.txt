@@ -46,11 +46,15 @@ gcc or gc for comment
 
 >> or << for indent
 
+gk gj "go" up and down visually on one word wrapped line
+
 ****PYTHON****
 
 af: a function
 if: inner function
 ac: a class
 ic: inner class
+
+
 
 
