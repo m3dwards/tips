@@ -22,6 +22,8 @@ SPC f e R reload spacemacs file
 
 SPC j j enter a blank new line
 
+SPC t n to toggle line numbers
+
 SPC ' brings up terminal
 
 SPC SPC run command by name
