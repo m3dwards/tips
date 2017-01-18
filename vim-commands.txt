@@ -50,6 +50,9 @@ gcc or gc for comment
 
 gk gj "go" up and down visually on one word wrapped line
 
+m + char for mark
+' or ` + char for goto mark. backtick goes to the column whereas quote goes to the line
+
 ****PYTHON****
 
 af: a function
