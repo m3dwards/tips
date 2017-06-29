@@ -60,6 +60,6 @@ if: inner function
 ac: a class
 ic: inner class
 
-
+gg=G indent whole file
 
 
