@@ -33,3 +33,5 @@ SPC h d k/f define key/function
 SPC TAB switch to previous buffer, same as SPC b b RETURN
 
 SPC j = retab selected lines or entire buffer
+
+M-x untabfiy-buffer (SPC : instead of M-x?)
