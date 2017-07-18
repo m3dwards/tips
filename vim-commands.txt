@@ -13,6 +13,7 @@ H, M, L move cursor high, medium, low
 CTRL SHIFT V for visual block mode, then SHIFT i to insert. Press escape and will insert into all lines.
 
 : s/^/# for remove comments from start of line
+:%s/foo/bar/g
 
 SHIFT J - concat two lines
 
