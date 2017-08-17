@@ -21,3 +21,4 @@ lsof -i :5672
 
 look at disk usage
 df -h
+btrfs filesystem df /srv
