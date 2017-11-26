@@ -41,3 +41,4 @@ SPC m for major mode commands is the same as ,
 
 C-x TAB while lines are selected to indent rigidly
 
+C-o goes back to previous location in buffer
