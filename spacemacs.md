@@ -20,7 +20,7 @@ SPC w and hjkl direction to move window
 SPC f e d edit spacemacs file
 SPC f e R reload spacemacs file
 
-SPC j j enter a blank new line
+SPC j n enter a blank new line
 
 SPC t n to toggle line numbers
 
