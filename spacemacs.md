@@ -33,5 +33,11 @@ SPC h d k/f define key/function
 SPC TAB switch to previous buffer, same as SPC b b RETURN
 
 SPC j = retab selected lines or entire buffer
+SPC m = also retab but from major mode
 
 M-x untabfiy-buffer (SPC : instead of M-x?)
+
+SPC m for major mode commands is the same as ,
+
+C-x TAB while lines are selected to indent rigidly
+
