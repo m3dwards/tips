@@ -22,3 +22,9 @@ lsof -i :5672
 look at disk usage
 df -h
 btrfs filesystem df /srv
+lsblk #list block devices (show disks)
+sudo du -sh . #size of current directory
+
+
+dmesg #kernel ring buffer logger (important stuff like disk size changes)
+cat /etc/fstab
