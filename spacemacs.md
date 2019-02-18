@@ -46,3 +46,13 @@ C-o goes back to previous location in buffer
 == indents a line
 
 fd for close
+
+yss<p> to surround whole line with p tags
+
+ys<selector>" to surround selector with doube quotes
+  
+cst" to change surround from any html tag to double quote
+
+ds" delete surround
+
+S<textobject> or gS<textobject> when in visual mode
