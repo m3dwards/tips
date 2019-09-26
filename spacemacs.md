@@ -56,3 +56,10 @@ cst" to change surround from any html tag to double quote
 ds" delete surround
 
 S\<textobject> or gS\<textobject> when in visual mode
+
+Global search and replace
+SPC / "search term" to find all instances in project
+C-c C-e to open all changes in a helm edit buffer
+:%s/find/replace/g to replace all instances
+C-c C-c to commit changes
+
