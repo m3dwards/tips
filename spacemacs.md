@@ -65,3 +65,4 @@ C-c C-c to commit changes
 
 gy copy the current line and comment out the original
 
+za toggle code folding (expands and contracts code blocks)
