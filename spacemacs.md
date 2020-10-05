@@ -67,4 +67,6 @@ gy copy the current line and comment out the original
 
 za toggle code folding (expands and contracts code blocks)
 
-<C-h k C-k> will show what keys are bound to. In this case what CTRL-K is bound to.
+`<C-h k C-k>` will show what keys are bound to. In this case what CTRL-K is bound to.
+
+SPC j j followed by some text to jump to 
