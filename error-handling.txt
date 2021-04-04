@@ -1,0 +1,26 @@
+In your own code, use errors.New or errors.Errorf at the point an error occurs.
+func parseArgs(args []string) error {
+        if len(args) < 3 {
+                return errors.Errorf("not enough arguments, expected at least 3, got %d", len(args))
+        }
+        // ...
+}
+If you receive an error from another function, it is often sufficient to simply return it.
+if err != nil {
+       return err
+}
+If you interact with a package from another repository, consider using errors.Wrap or errors.Wrapf to establish a stack trace at that point. This advice also applies when interacting with the standard library.
+f, err := os.Open(path)
+if err != nil {
+        return errors.Wrapf(err, "failed to open %q", path)
+}
+Always return errors to their caller rather than logging them throughout your program.
+At the top level of your program, or worker goroutine, use %+v to print the error with sufficient detail.
+func main() {
+        err := app.Run()
+        if err != nil {
+                fmt.Printf("FATAL: %+v\n", err)
+                os.Exit(1)
+        }
+}
+If you want to exclude some classes of error from printing, use errors.Cause to unwrap errors before inspecting them.
