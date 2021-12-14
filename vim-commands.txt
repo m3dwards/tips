@@ -36,7 +36,13 @@ Completion
 
 [INSERT] CTRL + x followed by CTRL + F, L, O, ], P, N (autocomplete File, Line, omni lang aware, tag, previous, next)
 
-CTRL O older location
+CTRL o older location
+CTRL i newer location
+
+zt, zz, zb take current line to the top, middle and bottom
+
+ctrl a increment number (g= on doom)
+ctrl x decrement number (g- on doom)
 
 :4co.<return> copy from line four to here
 :4mo.<return> move from line four to here
