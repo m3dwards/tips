@@ -69,4 +69,5 @@ ic: inner class
 
 gg=G indent whole file
 
+10 CTRL d/u will scroll the buffer 10 down or up and after that you only need to hit CTRL d/u to get 10 lines again (default half a page)
 
